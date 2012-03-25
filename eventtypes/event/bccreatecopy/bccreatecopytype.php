@@ -2,6 +2,8 @@
 
 /*
 Copyright (C) 2006 SCK-CEN
+Copyright (C) 1999 - 2012 Brookins Consulting
+
 Written by Kristof Coomans ( kristof[dot]coomans[at]telenet[dot]be )
 
 This program is free software; you can redistribute it and/or
@@ -66,7 +68,7 @@ class BCCreateCopyType extends eZWorkflowEventType
     {
     }
 
-        /*
+    /*
      \reimp
     */
     function customWorkflowEventHTTPAction( &$http, $action, &$workflowEvent )
